@@ -1,13 +1,16 @@
+/* apply universal style */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* apply body style */
 body {
     background-color: #d9dcd6;
 }
 
+/* apply header styles */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -40,16 +43,20 @@ header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
+/* end header styles */
 
+/* apply anchor style */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/*apply paragraph style */
 p {
     font-size: 16px;
 }
 
+/* insert hero image */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,6 +66,7 @@ p {
     background-position: center;
 }
 
+/* apply image floats */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -69,12 +77,7 @@ p {
     margin-left: 25px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
+/* apply benefits section styles */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -100,6 +103,14 @@ p {
     display: block;
     margin: 10px auto;
     max-width: 150px;
+}
+/* end benefits section */
+
+/* apply content section styles */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
 }
 
 .search-engine-optimization {
@@ -137,7 +148,9 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+/* end content section */
 
+/* apply footer style */
 footer {
     padding: 30px;
     clear: both;
